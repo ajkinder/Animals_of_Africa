@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Animals_of_AfricaApp: App {
+    //MARK: - PROPERTIES
+    
+    //MARK: - BODY
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+        }//- BODY
     }
 }
