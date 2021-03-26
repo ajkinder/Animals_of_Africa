@@ -21,6 +21,10 @@
 		9B3EE31B260EA375000E683B /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE311260EA374000E683B /* rhino.mp4 */; };
 		9B3EE31C260EA375000E683B /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE312260EA374000E683B /* zebra.mp4 */; };
 		9B3EE31D260EA375000E683B /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE313260EA375000E683B /* elephant.mp4 */; };
+		9B3EE324260EA4EB000E683B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE320260EA4EB000E683B /* locations.json */; };
+		9B3EE325260EA4EB000E683B /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE321260EA4EB000E683B /* covers.json */; };
+		9B3EE326260EA4EB000E683B /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE322260EA4EB000E683B /* animals.json */; };
+		9B3EE327260EA4EB000E683B /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EE323260EA4EB000E683B /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		9B3EE311260EA374000E683B /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		9B3EE312260EA374000E683B /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
 		9B3EE313260EA375000E683B /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		9B3EE320260EA4EB000E683B /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		9B3EE321260EA4EB000E683B /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		9B3EE322260EA4EB000E683B /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		9B3EE323260EA4EB000E683B /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 		9B3EE2F8260E9BB6000E683B /* Animals_of_Africa */ = {
 			isa = PBXGroup;
 			children = (
+				9B3EE31F260EA4D2000E683B /* Data */,
 				9B3EE309260EA341000E683B /* Video */,
 				9B3EE2F9260E9BB6000E683B /* Animals_of_AfricaApp.swift */,
 				9B3EE2FB260E9BB6000E683B /* ContentView.swift */,
@@ -105,6 +114,17 @@
 				9B3EE312260EA374000E683B /* zebra.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		9B3EE31F260EA4D2000E683B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9B3EE322260EA4EB000E683B /* animals.json */,
+				9B3EE321260EA4EB000E683B /* covers.json */,
+				9B3EE320260EA4EB000E683B /* locations.json */,
+				9B3EE323260EA4EB000E683B /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,16 +184,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3EE326260EA4EB000E683B /* animals.json in Resources */,
+				9B3EE324260EA4EB000E683B /* locations.json in Resources */,
 				9B3EE301260E9BB7000E683B /* Preview Assets.xcassets in Resources */,
 				9B3EE315260EA375000E683B /* lion.mp4 in Resources */,
 				9B3EE317260EA375000E683B /* giraffe.mp4 in Resources */,
 				9B3EE31A260EA375000E683B /* ostrich.mp4 in Resources */,
 				9B3EE318260EA375000E683B /* gorilla.mp4 in Resources */,
 				9B3EE319260EA375000E683B /* cheetah.mp4 in Resources */,
+				9B3EE325260EA4EB000E683B /* covers.json in Resources */,
 				9B3EE31C260EA375000E683B /* zebra.mp4 in Resources */,
 				9B3EE316260EA375000E683B /* lioness.mp4 in Resources */,
 				9B3EE31D260EA375000E683B /* elephant.mp4 in Resources */,
 				9B3EE314260EA375000E683B /* hippo.mp4 in Resources */,
+				9B3EE327260EA4EB000E683B /* videos.json in Resources */,
 				9B3EE31B260EA375000E683B /* rhino.mp4 in Resources */,
 				9B3EE2FE260E9BB7000E683B /* Assets.xcassets in Resources */,
 			);
