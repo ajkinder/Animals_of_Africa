@@ -14,7 +14,7 @@ struct Animals_of_AfricaApp: App {
     //MARK: - BODY
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }//- BODY
     }
 }
